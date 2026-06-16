@@ -43,8 +43,6 @@ Para el diseño del algoritmo se tomó la decisión de tomar los datos del
 convertir los datos de texto a números y boleanos, los nombres del
 estado y municipio se dejaron en formato texto.
 
-![](media/image2.png){width="6.1375in" height="2.002083333333333in"}
-
 ***Cromosomas.***\
 Para la representación de los cromosomas se optó por representar a cada
 municipio como un gen del cromosoma, donde el valor sería el presupuesto
@@ -158,17 +156,12 @@ entre ambas, cada una con 5 corridas. Las tasas son las siguientes:
 Para poner en contexto los resultados debemos dar un poco de contexto,
 la siguiente tabla muestra el municipio con mayor prioridad evaluado con
 la formula: *\
-*$$P_{i} = 0.30 \cdot S_{i} + 0.35 \cdot I_{i} + 0.25 \cdot V_{i} + 0.10 \cdot (1 - A_{i})$$
+$$P_{i} = 0.30 \cdot S_{i} + 0.35 \cdot I_{i} + 0.25 \cdot V_{i} + 0.10 \cdot (1 - A_{i})$$
 
-  -----------------------------------------------------------------------
-                          Nombre                  Puntos
-  ----------------------- ----------------------- -----------------------
-  Municipio con mayor     Aquila                  4.3
-  prioridad                                       
-
-  Municipio con menor     San Juan de los Lagos.  1.8
-  prioridad                                       
-  -----------------------------------------------------------------------
+  | Nombre | Puntos |
+|---|---|
+| Municipio con mayor prioridad | Aquila 4.3 |
+| Municipio con menor prioridad | San Juan de los Lagos | 1.8 |
 
 *figura 1.*
 
@@ -185,14 +178,10 @@ suma de los genes de cada cromosoma siempre de 1.
 El mejor fitness obtenido fue de 37,447,528.82, el cual se calculó con
 la formula anteriormente mencionada en la sección "Fitness".
 
-  -----------------------------------------------------------------------
-                    Nombre del          Prioridad       Presupuesto
-                    Municipio                           
-  ----------------- ------------------- --------------- -----------------
-  Mayor asignación  Aquila              4.3             \$ 697,313.66
-
-  Menor asignación  Susupuato           2.7             \$0.00
-  -----------------------------------------------------------------------
+| Tipo de asignación | Nombre del Municipio | Prioridad | Presupuesto |
+|---|---|---|---|
+| Mayor asignación | Aquila | 4.3 | $697,313.66 |
+| Menor asignación | Susupuato | 2.7 | $0.00 |
 
 *figura 2.*
 
@@ -201,14 +190,10 @@ la formula anteriormente mencionada en la sección "Fitness".
 El mejor fitness obtenido fue de 39,525,485.22, el cual se calculó con
 la formula anteriormente mencionada en la sección "Fitness".
 
-  -----------------------------------------------------------------------
-                    Nombre del          Prioridad       Presupuesto
-                    Municipio                           
-  ----------------- ------------------- --------------- -----------------
-  Mayor asignación  Aquila              4.3             \$ 8,788,971.70
-
-  Menor asignación  José Sixto Verduzco 2.55            \$0.00
-  -----------------------------------------------------------------------
+| Tipo de asignación | Nombre del Municipio | Prioridad | Presupuesto |
+|---|---|---|---|
+| Mayor asignación | Aquila | 4.3 | MXN $8,788,971.70 |
+| Menor asignación | José Sixto Verduzco | 2.55 | MXN $0.00 |
 
 *figura 3.*
 
