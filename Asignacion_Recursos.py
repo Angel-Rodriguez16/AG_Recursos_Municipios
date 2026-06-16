@@ -89,7 +89,7 @@ class AG:
             return np.sum(cromosoma * self.prioridades) - penalizacion #Ahora penalizo por exceder el presupuesto
         limite = self.presupuesto * 0.03
         penalizacion_concentracion = np.sum(np.maximum(0, cromosoma - limite) * max(self.prioridades))
-        return np.sum(cromosoma * self.prioridades) - penalizacion_concentracion          #exceder el presupuesto                 
+        return np.sum(cromosoma * self.prioridades) - penalizacion_concentracion                         
 
     def torneo(self, poblacion, fitnesses):
         indices = np.random.choice(len(poblacion), self.k_torneo, replace=False)
