@@ -1,6 +1,3 @@
-![El portal de la tesis](image1.png){width="6.1375in"
-height="2.604861111111111in"}
-
 **Alumno:**
 Ángel Roberto Rodríguez Miranda.
 
