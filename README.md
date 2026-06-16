@@ -169,10 +169,6 @@ Con este contexto ahora tiene sentido comparar los mejores resultados de
 las 5 corridas de ambas tasas de mutación seleccionadas, que en nuestro
 caso fueron 0.01 y 0.08.
 
-Cabe aclarar que en ambos casos el presupuesto utilizado es de
-exactamente MXN \$10M, ya que los datos están normalizados para que la
-suma de los genes de cada cromosoma siempre de 1.
-
 ***Mutación 0.01.***
 
 El mejor fitness obtenido fue de 37,447,528.82, el cual se calculó con
